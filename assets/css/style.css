@@ -14,7 +14,7 @@
 
   font-family: sans-serif;
   font-size: 14px;
-  line-height: 18px;
+  line-height: 1.3em;
   font-weight: 400;
   text-align: center;
 }
@@ -25,7 +25,7 @@
   color: var(--main-color);
 
   font-size: 22px;
-  line-height: 26px;
+  line-height: 1.2em;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -79,13 +79,15 @@
 }
 
 .format-text {
-  margin: 0 auto;
-
   white-space: nowrap;
   overflow: hidden;
 
   text-overflow: ellipsis;
   text-transform: capitalize;
+}
+
+.fullname-user, .address-user, .btn{
+  margin: 0 auto;
 }
 
 .fullname-user {
@@ -94,7 +96,7 @@
   margin-bottom: 5px;
 
   font-size: 16px;
-  line-height: 20px;
+  line-height: 1.3em;
 }
 
 .address-user {
@@ -103,7 +105,7 @@
   margin-bottom: 15px;
 
   font-size: 14px;
-  line-height: 18px;
+  line-height: 1.3em;
 }
 
 .map-marker {
@@ -133,7 +135,7 @@
   background-color: var(--main-color);
 
   font-size: 14px;
-  line-height: 18px;
+  line-height: 1.3em;
 }
 
 .btn:hover {
@@ -154,7 +156,7 @@
   margin-bottom: 20px;
 
   font-size: 14px;
-  line-height: 18px;
+  line-height: 1.3em;
 }
 
 .card-footer {
